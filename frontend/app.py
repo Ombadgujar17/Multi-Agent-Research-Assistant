@@ -26,12 +26,3 @@ if st.button("Research"):
     st.success("Done!")
 
     st.markdown(result["report"])
-
-    with st.expander("Summary"):
-        st.write(result["summary"])
-
-    with st.expander("Sources"):
-        for source in result["sources"]:
-            st.markdown(
-                f"- [{source['title']}]({source['url']})"
-            )

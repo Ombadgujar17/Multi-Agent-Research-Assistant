@@ -14,8 +14,8 @@ Your responsibilities are:
 - Return only the summary.
 - If the input contains a References or Sources section, include it unchanged at the end of the summary.
 - Produce a concise executive summary.
-- Maximum 300 words.
-- Return at most 8 key findings.
+- Maximum 3000 words.
+- Return key findings.
 - Preserve technical accuracy.
 - Keep references unchanged.
 

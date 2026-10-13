@@ -9,7 +9,7 @@ fact_checker_prompt = Path("app/prompts/fact_checker.md").read_text()
 load_dotenv()
 
 llm = ChatGroq(
-    model="openai/gpt-oss-120b"
+    model="Qwen/Qwen3.8-27B"
 )
 
 fact_check_agent = create_agent(
